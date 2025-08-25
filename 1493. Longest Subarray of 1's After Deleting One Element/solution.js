@@ -1,0 +1,1 @@
+longestSubarray=$=>$.reduce(([m,l,z],v,r)=>{z+=!v;while(z>1)z-=!$[l++];return[r-l>m?r-l:m,l,z]},[0,0,0])[0]

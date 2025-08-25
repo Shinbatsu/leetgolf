@@ -1,0 +1,1 @@
+selectFirstRows=lambda e:e.head(3)

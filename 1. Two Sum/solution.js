@@ -1,0 +1,1 @@
+twoSum=(a,t)=>a.map((x,i)=>[i,a.indexOf(t-x,i+1)]).find(p=>p[1]+1)

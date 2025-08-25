@@ -1,0 +1,1 @@
+m=Math.max;trap=h=>{for(l=L=R=w=0,r=h.length-1;l<=r;)h[l]<h[r]?(L=m(L,h[l]),w+=L-h[l++]):(R=m(R,h[r]),w+=R-h[r--]);return w}

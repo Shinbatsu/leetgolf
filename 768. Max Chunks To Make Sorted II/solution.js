@@ -1,0 +1,1 @@
+maxChunksToSorted=a=>a.reduce((s,x)=>x<s.at(-1)?[...s.filter(v=>v<=x),s.at(-1)]:[...s,x],[]).length

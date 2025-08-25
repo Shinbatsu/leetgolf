@@ -1,0 +1,1 @@
+e=enumarate;Solution=type('S',(),{'twoSum':lambda _,a,t:next([i,j]for i,x in e(a)for j,y in e(a[i+1:],i+1)if x+y==t)})
