@@ -1,0 +1,2 @@
+longestConsecutive=n=>(s=new Set(n),m=0,s.forEach(x=>{if(!s.has(x-1)){for(l=1;s.has(x+l);)l++;m=m>l?m:l}}),m)
+longestConsecutive=n=>n.sort((a,b)=>a-b)&&n.reduce((m,v,i)=>i?(v-n[i-1]==1?l++:v-n[i-1]?l=1:0,m>l?m:l):l=1,0)
