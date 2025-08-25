@@ -1,0 +1,1 @@
+minimumTotal=t=>t.reduceRight((a,r)=>r.map((v,i)=>v+Math.min(a[i],a[i+1])))[0]
