@@ -1,0 +1,1 @@
+romanToInt=s=>[...s].reduce((a,c,i,s,r={I:1,V:5,X:10,L:50,C:1e2,D:5e2,M:1e3})=>a+r[c]*(r[c]<r[s[i+1]]?-1:1),0)
