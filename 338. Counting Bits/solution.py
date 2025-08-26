@@ -1,0 +1,1 @@
+Solution=type('S',(),{'countBits':(f:=lambda _,n:(a:=f(_,n-1))+[a[n>>1]+n%2]if n else[0])})

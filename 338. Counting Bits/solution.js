@@ -1,0 +1,1 @@
+countBits=f=n=>n?(a=f(n-1),a.push(a[n>>1]+n%2),a):[0]
