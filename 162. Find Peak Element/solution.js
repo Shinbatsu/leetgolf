@@ -1,0 +1,1 @@
+findPeakElement=n=>($=n.findIndex((v,_)=>v>n[++_]))<0?n.length-1:$
