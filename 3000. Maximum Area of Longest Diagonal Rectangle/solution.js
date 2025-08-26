@@ -1,0 +1,1 @@
+areaOfMaxDiagonal=a=>a.map(([l,w])=>[l*l+w*w,l*w]).sort((x,y)=>x[0]-y[0]||x[1]-y[1]).pop``[1]
