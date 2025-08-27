@@ -1,0 +1,1 @@
+addTwoNumbers=f=(a,b,c=0)=>a||b||c?(c+=(a?.val||0)+(b?.val||0),new ListNode(c%10,f(a?.next,b?.next,c/10|0))):a
