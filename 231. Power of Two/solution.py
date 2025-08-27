@@ -1,0 +1,1 @@
+class Solution:isPowerOfTwo=lambda _,n:n>0 and n&-n==n
