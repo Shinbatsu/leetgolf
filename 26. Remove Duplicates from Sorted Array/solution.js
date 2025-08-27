@@ -1,0 +1,1 @@
+removeDuplicates=n=>(i=0,n.map(x=>i<1|x>n[i-1]&&(n[i++]=x)),i)
