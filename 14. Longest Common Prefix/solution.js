@@ -1,0 +1,1 @@
+longestCommonPrefix=a=>a.reduce((x,y)=>[...x].filter((c,i)=>c==y[i]?1:y='').join``)
