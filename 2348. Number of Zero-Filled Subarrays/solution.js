@@ -1,0 +1,1 @@
+zeroFilledSubarray=a=>(s=i=0,a.map(x=>s+=i=x?0:++i),s)
