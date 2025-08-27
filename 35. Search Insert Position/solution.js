@@ -1,0 +1,1 @@
+searchInsert=(n,t)=>(f=(a,b)=>a<b?n[m=a+b>>1]<t?f(m+1,b):f(a,m):a)(0,n.length)
