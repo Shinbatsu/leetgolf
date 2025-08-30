@@ -1,0 +1,1 @@
+rangeBitwiseAnd=f=(l,r)=>l<r?f(l,r&--r):r
