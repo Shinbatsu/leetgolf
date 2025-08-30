@@ -1,0 +1,1 @@
+maxProfit=p=>p.slice(1).reduce(([a,b,c,d],v)=>[a>-v?a:-v,b>a+v?b:a+v,c>b-v?c:b-v,d>c+v?d:c+v],[-p[0],0,-p[0],0])[3]
