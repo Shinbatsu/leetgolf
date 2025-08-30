@@ -1,0 +1,1 @@
+with(Math)flowerGame=(n,m)=>floor(n*m/2)
