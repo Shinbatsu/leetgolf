@@ -1,0 +1,1 @@
+with(Math)maxArea=f=(h,l=0,r=h.length-1)=>l<r?max((r-l)*min(h[l],h[r]),h[l]<h[r]?f(h,l+1,r):f(h,l,r-1)):0
