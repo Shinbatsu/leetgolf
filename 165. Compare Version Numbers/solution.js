@@ -1,0 +1,1 @@
+with(Math)compareVersion=(a,b)=>sign([...Array(max((a=a.split`.`).length,(b=b.split`.`).length))].map((_,i)=>(a[i]||0)-(b[i]||0)).find(v=>v)||0)
