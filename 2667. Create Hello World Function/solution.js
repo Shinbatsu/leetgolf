@@ -1,0 +1,1 @@
+createHelloWorld=_=>_=>'Hello World'
