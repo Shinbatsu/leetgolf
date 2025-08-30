@@ -1,0 +1,1 @@
+search=f=(n,t,l=0,h=n.length-1)=>l<h?f(n,t,...n[0]>n[m=l+h>>1]?t>n[m]&t<=n[h]?[m+1,h]:[l,m]:t>=n[0]&t<=n[m]?[l,m]:[m+1,h]):n[l]==t?l:-1
