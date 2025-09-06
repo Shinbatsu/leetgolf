@@ -1,0 +1,1 @@
+lengthOfLIS=n=>n.reduce((s,a)=>(~(i=s.findIndex(x=>x>=a))?s[i]=a:s.push(a),s),[]).length
