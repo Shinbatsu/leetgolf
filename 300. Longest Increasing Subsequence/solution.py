@@ -1,0 +1,1 @@
+Solution=type('',(),{"lengthOfLIS":lambda _,a:len(reduce(lambda x,y:x[:(_:=bisect_left(x,y))]+[y]+x[_+1:],a,[]))})
