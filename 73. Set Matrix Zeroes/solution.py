@@ -1,0 +1,1 @@
+Solution=type('',(),{"setZeroes":lambda _,t,r=range,l=len:[t[i].__setitem__(j,t[i][j]*(x[i]&y[j]))for x,y in[([*map(all,t)],[*map(all,zip(*t))])]for i,j in product(r(l(t)),r(l(t[0])))]})

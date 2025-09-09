@@ -1,0 +1,1 @@
+setZeroes=m=>(r=c=[])+m.map((a,i)=>a.map((v,j)=>v||((r[i]=c[j]=1))))+m.map((a,i)=>a.map((v,j)=>a[j]=r[i]|c[j]?0:v))
