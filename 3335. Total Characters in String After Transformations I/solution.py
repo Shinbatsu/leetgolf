@@ -1,0 +1,1 @@
+Solution=type('',(),{"lengthAfterTransformations":lambda _,s,t:sum(reduce(lambda x,_:(x[-1],x[-1]+x[0],*x[1:-1]),range(t),[Counter(s).get(c,0)for c in ascii_lowercase]))%(10**9+7)})

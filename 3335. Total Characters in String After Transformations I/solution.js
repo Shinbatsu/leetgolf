@@ -1,0 +1,1 @@
+lengthAfterTransformations=(s,t,m=1e9+7,a=Array(26).fill(0))=>([...s].map(c=>a[c.charCodeAt(0)-97]++),(()=>{while(t--)a.unshift(a.pop``),a[1]=(a[1]+a[0])%m})``,eval(a.join`+`)%m)
