@@ -1,0 +1,1 @@
+Solution=type('',(),{"sumZero":lambda _,n:[*range(1-n,n,2)]})

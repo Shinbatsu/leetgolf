@@ -1,0 +1,1 @@
+sumZero=n=>[...Array(n)].map((_,i)=>1-n+2*i)
