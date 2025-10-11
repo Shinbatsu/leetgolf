@@ -1,0 +1,1 @@
+Solution=type("",(),{"maxDepth":(f:=lambda _,s,d=0:s and max(d,f(_,s[1:],d+(s[0]=='(')-(s[0]==')')))or 0)})
