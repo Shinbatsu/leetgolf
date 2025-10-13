@@ -1,0 +1,1 @@
+Solution=type('',(),{'lengthOfLastWord':lambda _,s:len(s.split()[-1])})
