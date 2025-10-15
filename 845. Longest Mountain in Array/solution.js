@@ -1,0 +1,1 @@
+longestMountain=a=>((i=a.map(_=>1)),(d=a.map(_=>1)),a.forEach((v,j)=>j&&(i[j]=v>a[j-1]?i[j-1]+1:1)),a.reduceRight((_,v,j)=>j<a.length-1&&(d[j]=v>a[j+1]?d[j+1]+1:1)),a.reduce((m,v,j)=>i[j]>1&&d[j]>1?Math.max(m,i[j]+d[j]-1):m,0))
