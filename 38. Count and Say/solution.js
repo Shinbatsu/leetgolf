@@ -1,0 +1,1 @@
+countAndSay=f=n=>n<2?'1':f(--n).replace(/(.)\1*/g,m=>m.length+m[0])
