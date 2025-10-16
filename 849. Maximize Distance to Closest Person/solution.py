@@ -1,0 +1,1 @@
+Solution=type('',(),{'maxDistToClosest':lambda _,s:max(s.index(1),*((sum(1 for _ in g)+1)//2 for n,g in groupby(s)if not n),s[::-1].index(1))})

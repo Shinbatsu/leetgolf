@@ -1,0 +1,1 @@
+with(Math)maxDistToClosest=a=>(b=c=d=-1)&&a.map((x,i)=>x&&(d=max(d,~c&&i-c),b=~b?b:i,c=i))&&max(b,a.length-1-c,~~(d/2))
